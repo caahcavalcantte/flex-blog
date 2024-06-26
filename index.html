@@ -16,33 +16,52 @@
     <title>Flex Blog</title>
   </head>
   <body>
+    <!-- A div superinfo-bg é uma classe que provavelmente estiliza o fundo da seção de informações de contato. -->
     <div class="superinfo-bg">
+      <!-- A div superinfo é uma classe usada para estilizar o conteúdo da seção de informações de contato. -->
       <div class="superinfo">
+        <!-- A tag p exibe o horário de funcionamento. -->
         <p>Seg / Sex - 08:00 às 18:00</p>
+        <!-- A tag a cria um link clicável para fazer uma chamada telefônica. -->
         <a href="tel:+552199999999">+55 21 9999-9999</a>
+        <!-- A tag p exibe o endereço. -->
         <p>Av. Ali Perto, 330, Botafogo - RJ</p>
       </div>
     </div>
+  
+    <!-- A tag header envolve o menu de navegação do site. A classe menu-bg provavelmente estiliza o fundo do cabeçalho. -->
     <header class="menu-bg">
+      <!-- A div menu contém os elementos do menu de navegação. A classe menu é usada para estilizar a área do menu. -->
       <div class="menu">
+        <!-- A div menu-logo contém o logo ou nome do site. A classe menu-logo é usada para estilizar o logo. -->
         <div class="menu-logo">
+          <!-- A tag a cria um link para a página inicial do site. -->
           <a href="#">FlexBlog</a>
         </div>
+        <!-- A tag nav define a seção de navegação principal. -->
         <nav>
+          <!-- A tag ul define uma lista não ordenada para os itens do menu. -->
           <ul>
+            <!-- Cada li representa um item do menu. A tag a cria um link para as diferentes seções do site. -->
             <li><a href="sobre">Sobre</a></li>
-            <li><a href="produtos">produtos</a></li>
-            <li><a href="preco">Preco</a></li>
+            <li><a href="produtos">Produtos</a></li>
+            <li><a href="preco">Preço</a></li>
             <li><a href="qualidade">Qualidade</a></li>
           </ul>
         </nav>
       </div>
     </header>
+  
+    <!-- A tag h1 define o título principal da página. A classe introducao é usada para estilizar o título de introdução. -->
     <h1 class="introducao">Novos valores e<br />Propriedade de CSS</h1>
-
+  
+    <!-- A tag section define uma seção do documento. A classe sobre é usada para estilizar a seção "Sobre" e o id sobre é usado para navegação de âncoras. -->
     <section class="sobre" id="sobre">
+      <!-- A div sobre-info contém informações sobre o site ou empresa. A classe sobre-info é usada para estilizar estas informações. -->
       <div class="sobre-info">
+        <!-- A tag h1 define um título dentro da seção. -->
         <h1>Sobre</h1>
+        <!-- A tag p define um parágrafo de texto. -->
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Reprehenderit consectetur quas alias facere aliquid tempora delectus
@@ -55,19 +74,24 @@
           consectetur cum ipsum aliquam. Sunt, corrupti?
         </p>
       </div>
+      <!-- A div sobre-img contém uma imagem relacionada à seção "Sobre". A classe sobre-img é usada para estilizar estas imagens. -->
       <div class="sobre-img">
+        <!-- A tag img exibe uma imagem. -->
         <img src="img/sobre1.jpg" alt="Sobre 1" />
       </div>
       <div class="sobre-img">
         <img src="img/sobre2.jpg" alt="Sobre 2" />
       </div>
     </section>
-
+  
+    <!-- A tag section define uma seção do documento. A classe produtos é usada para estilizar a seção "Produtos" e o id produtos é usado para navegação de âncoras. -->
     <section class="produtos" id="produtos">
       <h1>Produtos</h1>
+      <!-- A div produto-container contém itens de produtos. A classe produto-container é usada para estilizar o contêiner de produtos. -->
       <div class="produto-container">
+        <!-- A div produto-item define um item de produto individual. Cada item tem uma classe específica para estilização adicional (purple, pink, blue). -->
         <div class="produto-item purple">
-          <h2>Purble</h2>
+          <h2>Purple</h2>
           <img src="img/produtos1.jpg" alt="Produtos 1 " />
         </div>
         <div class="produto-item pink">
@@ -80,41 +104,45 @@
         </div>
       </div>
     </section>
-
+  
+    <!-- A tag section define uma seção do documento. A classe preco é usada para estilizar a seção "Preço" e o id preco é usado para navegação de âncoras. -->
     <section class="preco" id="preco">
+      <!-- A div preco-iten define um item de preço individual. A classe preco-iten é usada para estilizar cada item de preço. -->
       <div class="preco-iten">
         <h2>Cobre</h2>
+        <!-- A tag span é usada para agrupar e estilizar conteúdo em linha. -->
         <span><sub>R$</sub>19</span>
+        <!-- A tag ul define uma lista não ordenada para os benefícios do plano. -->
         <ul>
           <li>Planos Ilimitados</li>
           <li>Acesso Restrito</li>
-          <li>Conteudo Secreto</li>
+          <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
         </ul>
+        <!-- A tag a cria um link para a compra do plano. -->
         <a href="#">Comprar</a>
       </div>
-
+  
       <div class="preco-iten">
         <h2>Prata</h2>
         <span><sub>R$</sub>39</span>
-
         <ul>
           <li>Planos Ilimitados</li>
           <li>Acesso Restrito</li>
-          <li>Conteudo Secreto</li>
+          <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
           <li>Compra Exclusiva</li>
         </ul>
         <a href="#">Comprar</a>
       </div>
-
+  
       <div class="preco-iten">
         <h2>Ouro</h2>
         <span><sub>R$</sub>79</span>
         <ul>
           <li>Planos Ilimitados</li>
           <li>Acesso Restrito</li>
-          <li>Conteudo Secreto</li>
+          <li>Conteúdo Secreto</li>
           <li>Suporte 24h</li>
           <li>Compra Exclusiva</li>
           <li>Download dos Itens</li>
@@ -122,8 +150,10 @@
         <a href="#">Comprar</a>
       </div>
     </section>
-
-    <section class="qualidade"id="qualidade" >
+  
+    <!-- A tag section define uma seção do documento. A classe qualidade é usada para estilizar a seção "Qualidade" e o id qualidade é usado para navegação de âncoras. -->
+    <section class="qualidade" id="qualidade">
+      <!-- A div qualidade-item define um item de qualidade individual. A classe qualidade-item é usada para estilizar cada item de qualidade. -->
       <div class="qualidade-item">
         <h2>Inteligente</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis quibusdam, odit facere ratione doloribus id cum!</p>
@@ -149,19 +179,27 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis quibusdam, odit facere ratione doloribus id cum!</p>
       </div>
     </section>
-
+  
+    <!-- A tag section define uma seção do documento. A classe newsletter é usada para estilizar a seção "Newsletter". -->
     <section class="newsletter">
+      <!-- A div newsletter-info contém informações sobre a inscrição na newsletter. A classe newsletter-info é usada para estilizar essas informações. -->
       <div class="newsletter-info">
         <h1>Newsletter</h1>
-        <p>assine e fique por dentro</p>
+        <p>Assine e fique por dentro</p>
       </div>
+      <!-- A tag form define um formulário para inscrição na newsletter. A classe newsletter-form é usada para estilizar o formulário. -->
       <form action="" class="newsletter-form">
+        <!-- A tag input define um campo de entrada de texto. -->
         <input type="text" placeholder="Seu e-mail">
+        <!-- A tag button cria um botão de envio do formulário. -->
         <button type="submit">Assinar</button>
       </form>
     </section>
+  
+    <!-- A tag footer define o rodapé do documento. A classe footer é usada para estilizar o rodapé. -->
     <footer class="footer">
-      <p>Lorem ipsum dolor sit amet.</p> 
+      <p>Lorem ipsum dolor sit amet.</p>
     </footer>
   </body>
+  
 </html>
