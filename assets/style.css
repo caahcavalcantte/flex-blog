@@ -83,7 +83,9 @@ img{
 }
 
 .menu-nav a:hover{
-  background: #122ab2;
+  border-bottom: 2px solid #122ab2;
+  font-size: 1.3em;
+  color: #122ab2;
 }
 
 .introducao {
